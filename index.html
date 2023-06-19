@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <nav class="menu">
+    <div class="menu-items">
+      <div class="links">
+        <h2>Profile</h2>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">My Profile</a></li>
+          <li><a href="#">Find Connections</a></li>
+        </ul>
+      </div>
+      <button class="nav-btn">Sign Out</button>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section class="left-column">
+      <section class="profile-card">
+        <header class="profile-header">
+          <img src="images/jane-m.jpg" alt="jane profile" class="img profile-img">
+        </header>
+        <div class="profile-content">
+          <h1 class="profile-name">Jane Doe</h1>
+          <img src="images/icons/map-marker.png" alt="map marker" class="icon">
+          <span class="location">Seattle</span>
+          <div class="profile-description">
+            <p>Developer | Engineer | Problem Solver</p>
+            <p>Master of shadows and the Internet!</p>
+          </div>
+          <img src="images/icons/gear.png" alt="gear" class="icon">
+          <a href="#" class="edit-profile">edit profile</a>
+        </div>
+      </section>
+
+      <section class="education">
+        <header class="education-header">
+          <h3 class="education-title">Education</h3>
+        </header>
+        <div class="education-details">
+          <h2 class="description-header">Coding Dojo — Full Stack Bootcamp</h2>
+          <p class="education-date">Dec 2019 — March 2020</p>
+          <p class="education-details">Triple Blackbelt in Python, MERN, & C#...</p>
+        </div>
+      </section>
+    </section>
+
+    <aside class="connections">
+      <div class="connection-requests">
+        <header class="connections-header">
+          <h3 class="requests-title"><span class="gray-circle">2</span> Connections Requests</h3>
+        </header>
+        <div class="connection-items">
+          <div class="connection-1">
+            <div class="connection-details">
+              <img src="images/todd-s.jpg" alt="Todd" class="img img-small">
+              <p class="name">Todd E.</p>
+            </div>
+            <div class="icons">
+              <img src="images/icons/accept-circle.png" alt="accept circle" class="icon-small">
+              <img src="images/icons/close-circle.png" alt="close circle" class="icon-small">
+            </div>
+          </div>
+          <div class="connection-2">
+            <div class="connection-details">
+              <img src="images/phil-s.jpg" alt="Phil" class="img img-small">
+              <p class="name">Phil K.</p>
+            </div>
+            <div class="icons">
+              <img src="images/icons/accept-circle.png" alt="accept circle" class="icon-small">
+              <img src="images/icons/close-circle.png" alt="close circle" class="icon-small">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="your-connections">
+        <header class="connections-header">
+          <h3 class="requests-title"><span class="gray-circle">500+</span> Your Connections</h3>
+        </header>
+        <div class="current-connections">
+          <div class="details">
+            <img src="images/adrien-s.jpg" alt="Adrien" class="img img-small">
+            <p class="name">Adrien D.</p>
+          </div>
+          <div class="details">
+            <img src="images/anne-s.jpg" alt="Anne" class="img img-small">
+            <p class="name">Anne J.</p>
+          </div>
+          <div class="details">
+            <img src="images/alayne-s.jpg" alt="Alayne" class="img img-small">
+            <p class="name">Alayne T.</p>
+          </div>
+          <div class="details">
+            <img src="images/arry-s.jpg" alt="Arry" class="img img-small">
+            <p class="name">Arry Y.</p>
+          </div>
+        </div>
+        <div class="view-more">
+          <a href="#">View More</a>
+        </div>
+      </div>
+    </aside>
+  </main>
+</body>
+</html>
